@@ -1,0 +1,155 @@
+html, body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+div {
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  padding: 40px 200px;
+}
+
+div h2 {
+  padding-bottom: 60px;
+}
+
+.jumbotron {
+  background-color: #F7F7F7;
+  color: #C0B283;
+  margin-bottom: 0;
+}
+
+.display-4 {
+  font-family: 'Pacifico', cursive;
+  font-size: 6.5rem;
+  padding-bottom: 20px;
+}
+
+.dark {
+  background-color: #313133;
+  color: #C0B283;
+}
+
+.beige {
+  background-color: #F7F7F7;
+}
+
+#about-me-text {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+}
+
+.paragraph {
+  text-align: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 10px 2px rgba(119, 119, 119, 0.27);
+}
+
+.fa-envelope {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#toggle-text {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.experience h2 {
+  padding-bottom: 0;
+}
+
+.timeline {
+  color: #C0B283;
+}
+
+.position {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tech-stack {
+  font-size: 6rem;
+}
+
+.svg-inline--fa {
+  color: #C0B283;
+}
+
+.contact {
+  padding-bottom: 170px;
+  font-size: 1.3rem;
+}
+
+.contact div {
+  padding: 0;
+
+}
+
+ul, li {
+  text-align: left;
+  list-style-type: none;
+}
+
+li:before {
+  content: '\f105';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #C0B283;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1048px) {
+
+  div {
+    padding: 40px 150px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  div {
+    padding: 40px 70px;
+  }
+
+  #icons {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+
+  div {
+    padding: 40px 10px;
+  }
+
+  #about-me-text {
+    display: block;
+  }
+
+  .paragraph {
+    width: 100%;
+  }
+
+  .contact {
+    padding-bottom: 100px;
+  }
+
+}
