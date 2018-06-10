@@ -92,6 +92,7 @@ button {
 
 .stack-list {
   display: flex;
+  justify-content: flex-end;
 }
 
 .svg-inline--fa {
@@ -143,6 +144,11 @@ li:before {
     grid-template-columns: 50% 50%;
   }
 
+  .stack-list {
+    display: flex;
+    justify-content: flex-start;
+  }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -157,6 +163,10 @@ li:before {
 
   .paragraph {
     width: 100%;
+  }
+
+  .stack-list {
+    display: inline-block;
   }
 
   .contact {
